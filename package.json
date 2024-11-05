@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-safe-kysely",
+  "version": "1.0.1",
+  "description": "Ensures safe database operations for Kysely",
+  "main": "eslint-plugin-safe-kysely.js",
+  "scripts": {
+    "test": "node enforce-where-clause.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "kysely"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.13.0"
+  }
+}
