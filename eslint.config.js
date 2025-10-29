@@ -14,6 +14,7 @@ module.exports = [
     plugins: { "safe-kysely": safeKysely },
     rules: {
       "safe-kysely/enforce-where-clause": "error",
+      "safe-kysely/no-nested-transactions": "error",
     },
   },
 ];

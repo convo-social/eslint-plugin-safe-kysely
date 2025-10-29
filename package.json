@@ -4,7 +4,7 @@
   "description": "Ensures safe database operations for Kysely",
   "main": "eslint-plugin-safe-kysely.js",
   "scripts": {
-    "test": "node enforce-where-clause.test.js"
+    "test": "node enforce-where-clause.test.js && node no-nested-transactions.test.js"
   },
   "keywords": [
     "eslint",
